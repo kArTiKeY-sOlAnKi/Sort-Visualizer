@@ -1,0 +1,8 @@
+path: path of SDL2 installed library
+
+cmd: g++ -Ipath\SDL2_32\include -Lpath\SDL2_32\lib -o sort_visualizer_improved sort_visualizer_improved.cpp -lmingw32 -lSDL2main -lSDL2
+
+-I flag will search for the include file for SDL2
+-L flag will be looking for the library for SDL2
+
+Important: SDL2.dll must be present where the .cpp file is present (in the same folder)
